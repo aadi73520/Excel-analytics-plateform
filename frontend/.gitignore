@@ -1,0 +1,57 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.local
+.env.*.local
+./.env
+
+# Logs
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Build outputs
+# Ignore backend build artifacts (if any)
+backend/build/
+
+# DON'T ignore frontend/build (needed by Render)
+# frontend/build/   <-- ⚠️ DO NOT uncomment this
+out/
+coverage/
+
+# React / Vite
+*.local
+*.cache/
+*.parcel-cache/
+.next/
+.cache/
+.eslintcache
+
+# Misc
+*.tgz
+*.bak
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# MongoDB dump
+dump/
+
+# Uploads / temporary storage (optional if using local file uploads)
+uploads/
+temp/
